@@ -1,0 +1,99 @@
+{
+  "main": {
+    "id": "fa2eaa7d57c558bd",
+    "type": "split",
+    "children": [
+      {
+        "id": "b44ae3e833b3995f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2834faa91f9122ea",
+    "type": "split",
+    "children": [
+      {
+        "id": "c78f963d685fd2e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a90409c61a60a52",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "4b1a20809e61bb5c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "6c3eb1de53a59507",
+    "type": "split",
+    "children": [
+      {
+        "id": "7e982e7189aa6728",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b3d405d92c43d533",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "b44ae3e833b3995f",
+  "lastOpenFiles": [
+    "README.md",
+    "Code/Benchmarks.md",
+    "Kicad/Modules/Module_Sensor_Inside/Module_Sensor_Inside.md",
+    "Kicad/Modules/Module_Pump/Module_Pump.md",
+    "Kicad/Modules/Module_Plant/Module_Plant.md",
+    "Kicad/Modules/Module_Light/Module_Light.md",
+    "Kicad/Modules/Module_Controller/Module_Controller.md"
+  ]
+}
