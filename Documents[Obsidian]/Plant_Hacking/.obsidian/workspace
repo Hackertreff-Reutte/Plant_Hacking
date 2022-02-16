@@ -9,19 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Kicad/Brainstorming.md",
+            "file": "Kicad/Modules/Module_Controller/Module_Controller.md",
             "mode": "source"
-          }
-        }
-      },
-      {
-        "id": "d3b257f24a112dcd",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Kicad/Brainstorming.md",
-            "mode": "preview"
           }
         }
       }
@@ -79,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Kicad/Brainstorming.md",
+                "file": "Kicad/Modules/Module_Controller/Module_Controller.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,10 +88,10 @@
   },
   "active": "bdd5ab19dcbc40da",
   "lastOpenFiles": [
+    "Kicad/Modules/Module_Controller/Module_Controller.md",
     "Kicad/Brainstorming.md",
     "Kicad/Modules/Module_Sensor_Inside/Module_Sensor_Inside.md",
     "Code/Code.md",
-    "Kicad/Modules/Module_Controller/Module_Controller.md",
     "README.md",
     "Code/Benchmarks.md",
     "Kicad/Modules/Module_Pump/Module_Pump.md",
