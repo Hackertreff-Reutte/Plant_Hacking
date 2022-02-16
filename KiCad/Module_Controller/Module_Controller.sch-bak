@@ -110,7 +110,7 @@ Text Label 3900 3200 0    50   ~ 0
 Wire Wire Line
 	3700 3200 3900 3200
 Text Label 2300 3200 2    50   ~ 0
-5V
+Vin
 Wire Wire Line
 	2300 3200 2500 3200
 Text Label 2300 3100 2    50   ~ 0
