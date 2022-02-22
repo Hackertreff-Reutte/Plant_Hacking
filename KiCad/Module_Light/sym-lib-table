@@ -1,3 +1,3 @@
 (sym_lib_table
-  (lib (name Plant_Hacking)(type Legacy)(uri /home/alex/Development/Plant_Hacking/KiCad/Library/Plant_Hacking.lib)(options "")(descr ""))
+  (lib (name Plant_Hacking)(type Legacy)(uri ${KIPRJMOD}/../Library/Plant_Hacking.lib)(options "")(descr ""))
 )
