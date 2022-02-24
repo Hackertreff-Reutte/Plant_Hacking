@@ -15,3 +15,47 @@ Resistor     | PullUp Resistors  | 100k      | *missing*
 Capacitor    | Input Capacitor   | *missing* | *missing*
 Capacitor    | Output Capacitor  | *missing* | *missing*
 Sottky Diode | Sottky Diode      |           | *missing* 
+
+
+## Calculations
+
+### R_sense
+
+$\frac{V_{FB}}{R_{SET}} = I_{LED}$
+
+sovle for $R_{SET}$ we get
+
+$R_{SET} = \frac{V_{FB}}{I_{LED}}$
+
+$V_{FB}$ is a constant with a minimul value of 178mV, typical value of 190mV and maximum value of 202mV.
+
+For the calculations we will use 190mV for $V_{FB}$.
+
+$I_{LED}$ is the current through the LEDs. We get this value from the Forward current diagram in the LED datasheet. We know that the LEDs has a typical power consumption of 0.5W (datasheet). So we can determine the max LED current and forward voltage so that it does not exceed 0.5W. 
+
+$I_{LED_MAX} \simeq 150mA$
+$VF_{MAX} \simeq 2.91V$
+
+Theoretical max power: $Power = I_{LED_MAX} \times VF_{MAX} = 150mA \times 2.91V = 0.4365W$
+
+Now we calculate the R_sense resistor:
+
+$R_{SET} = \frac{V_{FB}}{I_{LED}} = \frac{190mV}{150mA} = 1.26666\ohm$
+
+The next closest R12 value is $1.2\ohm$. If be back track we get the following values.
+
+$I_{LED} = \frac{V_{FB}}{R_{SET}} = \frac{190mV}{1.2\ohm} = 158.3mA$
+
+$I_{LED_MAX} = \frac{V_{FB_MAX}}{R_{SET}} = \frac{202mV}{1.2\ohm} = 168.3mA$
+
+If we then get the forward voltage values from the datasheet for those to forward currents we get: 
+
+$VF_{158.3mA} \simeq 2.92V$
+$VF_{168.3mA} \simeq 2.93V$
+
+So the typically and maximum power consumptions are:
+
+$Power TYP = 158.3mA \times 2.92V = 0.4622W$
+$Power MAX = 168.3mA \times 2.93V = 0.4931W$
+
+Here we see that we are still around the expected power consumption and don't have to worry about it.
