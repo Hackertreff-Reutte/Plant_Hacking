@@ -55,7 +55,7 @@ $VF_{168.3mA} \simeq 2.93V$
 
 So the typically and maximum power consumptions are:
 
-$Power TYP = 158.3mA \times 2.92V = 0.4622W$
-$Power MAX = 168.3mA \times 2.93V = 0.4931W$
+$Power_{TYP} = 158.3mA \times 2.92V = 0.4622W$
+$Power_{MAX} = 168.3mA \times 2.93V = 0.4931W$
 
 Here we see that we are still around the expected power consumption and don't have to worry about it.
