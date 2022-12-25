@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Plant_Hacking)(type KiCad)(uri ${KIPRJMOD}/../Library/Plant_Hacking.pretty)(options "")(descr ""))
-)
