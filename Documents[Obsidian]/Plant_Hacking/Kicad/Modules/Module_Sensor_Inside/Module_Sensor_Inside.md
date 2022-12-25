@@ -1,1 +1,0 @@
-# Mudule Sensor Inside
