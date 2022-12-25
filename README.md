@@ -5,7 +5,6 @@ monitor plants. The main goal of the project is to create an overengineered
 system that can almost autonomously grow plants.
 So far we plan to monitor the following things:
 
-* Light-Levels
 * Humidity
 * Temperature
 * Ground-Moisture
@@ -29,8 +28,9 @@ For the documentation we use [Obsidian](https://github.com/obsidianmd/obsidian-r
 
 ## Current Goal
 
-At the moment we are trying to create the schematics for the
-various subsystems (light, temp-sensor, ...)
+At the moment we are trying to find different ideas on how to water the plants.
+One idea is active watering via a pump und the other is passive watering via a
+string or something similar (see doc).
 
 
 <br>
